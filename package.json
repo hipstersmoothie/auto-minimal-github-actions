@@ -1,0 +1,26 @@
+{
+  "name": "auto-gh-action-example",
+  "private": true,
+  "version": "0.0.0",
+  "description": "This is a javascript based gh-action published using auto",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hipstersmoothie/auto-minimal-github-actions.git"
+  },
+  "keywords": [],
+  "author": "Andrew Lisowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hipstersmoothie/auto-minimal-github-actions/issues"
+  },
+  "homepage": "https://github.com/hipstersmoothie/auto-minimal-github-actions#readme",
+  "devDependencies": {
+    "@auto-canary/auto": "9.34.2-canary.1238.15860.0",
+    "@auto-canary/gh-actions": "9.34.2-canary.1238.15860.0",
+    "typescript": "^3.9.3"
+  }
+}

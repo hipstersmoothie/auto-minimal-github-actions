@@ -3,5 +3,5 @@
   "repo": "auto-minimal-github-actions",
   "name": "Andrew Lisowski",
   "email": "lisowski54@gmail.com",
-  "plugins": ["git-tag", "released"]
+  "plugins": [["gh-actions", { "files": ["./dist/index.js"] }], "released"]
 }

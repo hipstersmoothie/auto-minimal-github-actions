@@ -1,11 +1,12 @@
-# `auto` GitHub actions
+# `auto` GitHub Actions
 
-This repository automates it's release using `auto` and it's `git-tag` plugin.
-`auto` creates releases based on "Semantic Labels" on pull requests.
+This is a javascript based gh-action published using auto
 
 An `auto` release is made on every merge and contains:
 
 - `CHANGELOG.md`
 - New tag
 - GitHub Release
+
+This plugins also manages `v1` type tags according to the spec.
   

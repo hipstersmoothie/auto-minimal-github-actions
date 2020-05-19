@@ -12,8 +12,16 @@ jobs:
 
       - name: Prepare Repository
         run: git fetch --unshallow --tags
+
+      - name: Use Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12.x
         
-      - name: Create New Release
-        uses: terradatum/auto-action@master
+      - name: Create Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          yarn;
+          yarn build;
+          auto shipit;
