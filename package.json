@@ -1,0 +1,24 @@
+{
+  "name": "auto-minimal-github-actions",
+  "version": "1.0.0",
+  "description": "This repository automates it's release using `auto` and it's `git-tag` plugin. `auto` creates releases based on \"Semantic Labels\" on pull requests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hipstersmoothie/auto-minimal-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hipstersmoothie/auto-minimal-github-actions/issues"
+  },
+  "homepage": "https://github.com/hipstersmoothie/auto-minimal-github-actions#readme",
+  "devDependencies": {
+    "auto": "^10.20.0",
+    "typescript": "^4.2.3"
+  }
+}
