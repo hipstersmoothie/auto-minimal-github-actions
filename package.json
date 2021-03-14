@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/hipstersmoothie/auto-minimal-github-actions#readme",
   "devDependencies": {
+    "@auto-it/git-tag": "^10.20.0",
     "auto": "^10.20.0",
     "typescript": "^4.2.3"
   }
