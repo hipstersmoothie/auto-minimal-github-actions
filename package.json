@@ -1,5 +1,5 @@
 {
-  "name": "auto-minimal-github-actions",
+  "name": "auto-minimal-github-actions-test",
   "version": "1.0.0",
   "description": "This repository automates it's release using `auto` and it's `git-tag` plugin. `auto` creates releases based on \"Semantic Labels\" on pull requests.",
   "main": "index.js",
